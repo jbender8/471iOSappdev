@@ -6,6 +6,6 @@ var str = "Hello, playground"
 print("Hello, World!")
 
 //Program 1.2
-print("chineese")
-print("emojis")
+print("你好, 世界!")
+print("👋🌎❗️")
 
