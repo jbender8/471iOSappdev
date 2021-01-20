@@ -1,7 +1,5 @@
 import UIKit
 
-var str = "Hello, playground"
-
 let currencySymbol : Character = "$"
 
 let ten : Int32 = 10

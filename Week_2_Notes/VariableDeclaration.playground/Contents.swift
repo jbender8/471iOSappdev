@@ -1,7 +1,5 @@
 import UIKit
 
-var str = "Hello, playground"
-
 var total : Int
 var velocity : Double
 var statusMessage : String
