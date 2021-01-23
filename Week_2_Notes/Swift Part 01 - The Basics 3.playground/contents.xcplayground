@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' last-migration='0800'>
+    <pages>
+        <page name='Page 1 - Hello World!'/>
+        <page name='Page 2 - Declarations [1]'/>
+        <page name='Page 3 - Declarations [2]'/>
+        <page name='Page 4 - Declarations [3]'/>
+        <page name='Page 5 - Control Statements'/>
+        <page name='Page 6 - Functions'/>
+        <page name='Page 7 - Classes [1]'/>
+        <page name='Page 8 - Classes [2]'/>
+        <page name='Page 9 - The Fraction Class v1'/>
+        <page name='Page 10 - The Fraction Class v2'/>
+        <page name='Page 11 - The Fraction Class v3'/>
+        <page name='Page 12 - The Fraction Class v4'/>
+        <page name='Page 13 - The Fraction Class v5'/>
+    </pages>
+</playground>
