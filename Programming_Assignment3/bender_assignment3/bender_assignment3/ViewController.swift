@@ -88,9 +88,12 @@ class ViewController: UIViewController {
         num = ""
     }
     
-    @IBOutlet weak var output: UILabel!
-    
-    
-}
 
+    @IBAction func clear(_ sender: Any) {
+        num = ""
+        output.text = num
+        total=0
+    }
+    @IBOutlet weak var output: UILabel!
+}
 
