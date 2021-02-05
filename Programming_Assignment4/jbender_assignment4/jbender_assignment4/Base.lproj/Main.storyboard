@@ -68,9 +68,15 @@
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pYh-2z-CHC">
                                 <rect key="frame" x="134" y="336" width="51" height="31"/>
+                                <connections>
+                                    <action selector="onoffswitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="4iX-0A-2v7"/>
+                                </connections>
                             </switch>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="DxQ-HL-kcP">
                                 <rect key="frame" x="115" y="398" width="285" height="31"/>
+                                <connections>
+                                    <action selector="volslider:" destination="BYZ-38-t0r" eventType="valueChanged" id="DlA-ta-dEa"/>
+                                </connections>
                             </slider>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vL2-Ou-0mA">
                                 <rect key="frame" x="10" y="814" width="394" height="32"/>
@@ -81,6 +87,9 @@
                                     <segment title="ABC"/>
                                 </segments>
                                 <color key="selectedSegmentTintColor" red="0.67797700940311689" green="0.88659639787950761" blue="0.94346532133436689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="favchoose:" destination="BYZ-38-t0r" eventType="valueChanged" id="5to-Jg-Dks"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jessica's TV" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6v7-Me-kTx">
                                 <rect key="frame" x="134" y="44" width="147" height="33"/>
@@ -146,6 +155,9 @@
                                 <rect key="frame" x="133" y="522" width="50" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Ch +"/>
+                                <connections>
+                                    <action selector="chplusbnt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pt2-Zc-nbq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4T-uE-gVI">
                                 <rect key="frame" x="206" y="522" width="30" height="41"/>
@@ -175,6 +187,9 @@
                                 <rect key="frame" x="135" y="591" width="46" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Ch -"/>
+                                <connections>
+                                    <action selector="chminbnt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eWZ-LZ-a6u"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gV3-sx-D5v">
                                 <rect key="frame" x="206" y="591" width="30" height="41"/>
