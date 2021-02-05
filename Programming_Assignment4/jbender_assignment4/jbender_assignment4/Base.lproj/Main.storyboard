@@ -316,6 +316,7 @@
                     </view>
                     <connections>
                         <outlet property="ChFavs" destination="vL2-Ou-0mA" id="9wh-t6-x7S"/>
+                        <outlet property="Power" destination="erm-dE-uXm" id="426-MI-K58"/>
                         <outlet property="bnt0" destination="EgM-dl-P5x" id="XIw-p9-Ptm"/>
                         <outlet property="bnt1" destination="GmF-jq-iTc" id="HiQ-Yq-d4z"/>
                         <outlet property="bnt2" destination="nUX-dh-w8B" id="eGC-is-ZVy"/>
