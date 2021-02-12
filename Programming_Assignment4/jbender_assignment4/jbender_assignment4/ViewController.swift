@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet weak var Power: UILabel!
     @IBOutlet weak var bnt0: UIButton!
     @IBOutlet weak var bnt1: UIButton!
     @IBOutlet weak var bnt2: UIButton!
@@ -170,12 +171,60 @@ class ViewController: UIViewController {
     }
     
     @IBAction func volslider(_ sender: Any) {
+        volRN.text = "\(Int(vol.value))"
     }
     
     @IBAction func onoffswitch(_ sender: Any) {
+        if (sender as AnyObject).isOn {
+            Power.text = "On"
+            bnt0.isEnabled = true
+            bnt1.isEnabled = true
+            bnt2.isEnabled = true
+            bnt3.isEnabled = true
+            bnt4.isEnabled = true
+            bnt5.isEnabled = true
+            bnt6.isEnabled = true
+            bnt7.isEnabled = true
+            bnt8.isEnabled = true
+            bnt9.isEnabled = true
+            bntplus.isEnabled = true
+            bntminus.isEnabled = true
+            ChFavs.isEnabled = true
+            vol.isEnabled = true
+        }
+        else{
+            Power.text = "Off"
+            bnt0.isEnabled = false
+            bnt1.isEnabled = false
+            bnt2.isEnabled = false
+            bnt3.isEnabled = false
+            bnt4.isEnabled = false
+            bnt5.isEnabled = false
+            bnt6.isEnabled = false
+            bnt7.isEnabled = false
+            bnt8.isEnabled = false
+            bnt9.isEnabled = false
+            bntplus.isEnabled = false
+            bntminus.isEnabled = false
+            ChFavs.isEnabled = false
+            vol.isEnabled = false
+        }
     }
     
     @IBAction func favchoose(_ sender: Any) {
+        switch (sender as AnyObject).selectedSegmentIndex {
+        case 0: channel = "260"
+            chan.text = channel
+        case 1: channel = "385"
+            chan.text = channel
+        case 2: channel = "180"
+            chan.text = channel
+        case 3: channel = "7"
+            chan.text = channel
+        default:
+            channel = "260"
+            chan.text = channel
+        }
     }
     
     
