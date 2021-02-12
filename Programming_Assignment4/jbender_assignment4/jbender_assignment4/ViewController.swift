@@ -9,10 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+    
 
     @IBOutlet weak var Power: UILabel!
     @IBOutlet weak var bnt0: UIButton!
@@ -36,7 +33,7 @@ class ViewController: UIViewController {
     var channel = ""
 
     
-    @IBAction func ch0bnt(_ sender: Any) {
+    @IBAction func ch0bnt(_ sender: UIButton) {
         if channel.count > 1 {
             channel = "0"
             chan.text = channel
@@ -213,20 +210,24 @@ class ViewController: UIViewController {
     
     @IBAction func favchoose(_ sender: Any) {
         switch (sender as AnyObject).selectedSegmentIndex {
-        case 0: channel = "260"
+        case 0: channel = "60"
             chan.text = channel
-        case 1: channel = "385"
+        case 1: channel = "85"
             chan.text = channel
-        case 2: channel = "180"
+        case 2: channel = "10"
             chan.text = channel
         case 3: channel = "7"
             chan.text = channel
         default:
-            channel = "260"
+            channel = "60"
             chan.text = channel
         }
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
     
 }
 
