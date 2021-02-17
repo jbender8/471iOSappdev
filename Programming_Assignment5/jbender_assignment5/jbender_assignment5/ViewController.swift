@@ -13,7 +13,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    var items: [(String, Int)] = []
+    
+    @IBOutlet weak var Descrip: UITextField!
+    
+    @IBOutlet weak var Des: UITextField!
+    
+    @IBOutlet weak var LIST: UILabel!
+    
+    
+    
+    
+    
+    
 }
 
