@@ -1,116 +1,116 @@
 {
   "images" : [
     {
-      "size" : "20x20",
+      "filename" : "imgonline-com-ua-resize-LSRKO6LQpG8PP-1.png",
       "idiom" : "iphone",
-      "filename" : "40-2.jpeg",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "20x20"
     },
     {
-      "size" : "20x20",
+      "filename" : "imgonline-com-ua-resize-JPYZHwA0YUhC.png",
       "idiom" : "iphone",
-      "filename" : "60.jpeg",
-      "scale" : "3x"
+      "scale" : "3x",
+      "size" : "20x20"
     },
     {
-      "size" : "29x29",
+      "filename" : "imgonline-com-ua-resize-bviN6WuZ8MsXu.png",
       "idiom" : "iphone",
-      "filename" : "58-1.jpeg",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "29x29"
     },
     {
-      "size" : "29x29",
+      "filename" : "imgonline-com-ua-resize-xa6whFKsJY8Oz.png",
       "idiom" : "iphone",
-      "filename" : "87.jpeg",
-      "scale" : "3x"
+      "scale" : "3x",
+      "size" : "29x29"
     },
     {
-      "size" : "40x40",
+      "filename" : "imgonline-com-ua-resize-Ef8UNO7MUrUuBA-1.png",
       "idiom" : "iphone",
-      "filename" : "80-1.jpeg",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "40x40"
     },
     {
-      "size" : "40x40",
+      "filename" : "imgonline-com-ua-resize-wsQkhZlXhUrWBlkt.png",
       "idiom" : "iphone",
-      "filename" : "120-1.jpeg",
-      "scale" : "3x"
+      "scale" : "3x",
+      "size" : "40x40"
     },
     {
-      "size" : "60x60",
+      "filename" : "imgonline-com-ua-resize-wsQkhZlXhUrWBlkt-2.png",
       "idiom" : "iphone",
-      "filename" : "120.jpeg",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "60x60"
     },
     {
-      "size" : "60x60",
+      "filename" : "imgonline-com-ua-resize-vZw1oTggIw273.png",
       "idiom" : "iphone",
-      "filename" : "180.jpeg",
-      "scale" : "3x"
+      "scale" : "3x",
+      "size" : "60x60"
     },
     {
-      "size" : "20x20",
+      "filename" : "imgonline-com-ua-resize-qfpZD7i7nuu5CQ9.png",
       "idiom" : "ipad",
-      "filename" : "20.jpeg",
-      "scale" : "1x"
+      "scale" : "1x",
+      "size" : "20x20"
     },
     {
-      "size" : "20x20",
+      "filename" : "imgonline-com-ua-resize-LSRKO6LQpG8PP.png",
       "idiom" : "ipad",
-      "filename" : "40-1.jpeg",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "20x20"
     },
     {
-      "size" : "29x29",
+      "filename" : "imgonline-com-ua-resize-DEZOVPtbFSYCM.png",
       "idiom" : "ipad",
-      "filename" : "29.jpeg",
-      "scale" : "1x"
+      "scale" : "1x",
+      "size" : "29x29"
     },
     {
-      "size" : "29x29",
+      "filename" : "imgonline-com-ua-resize-me36qYKPgd5sA.png",
       "idiom" : "ipad",
-      "filename" : "58.jpeg",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "29x29"
     },
     {
-      "size" : "40x40",
+      "filename" : "imgonline-com-ua-resize-LSRKO6LQpG8PP-2.png",
       "idiom" : "ipad",
-      "filename" : "40.jpeg",
-      "scale" : "1x"
+      "scale" : "1x",
+      "size" : "40x40"
     },
     {
-      "size" : "40x40",
+      "filename" : "imgonline-com-ua-resize-Ef8UNO7MUrUuBA.png",
       "idiom" : "ipad",
-      "filename" : "80.jpeg",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "40x40"
     },
     {
-      "size" : "76x76",
+      "filename" : "imgonline-com-ua-resize-SGARsX7Pzg.png",
       "idiom" : "ipad",
-      "filename" : "76.jpeg",
-      "scale" : "1x"
+      "scale" : "1x",
+      "size" : "76x76"
     },
     {
-      "size" : "76x76",
+      "filename" : "imgonline-com-ua-resize-HZlkelZIXdYE.png",
       "idiom" : "ipad",
-      "filename" : "152.jpeg",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "76x76"
     },
     {
-      "size" : "83.5x83.5",
+      "filename" : "imgonline-com-ua-resize-GjTdp01Cfv.png",
       "idiom" : "ipad",
-      "filename" : "167.jpeg",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "83.5x83.5"
     },
     {
-      "size" : "1024x1024",
+      "filename" : "imgonline-com-ua-resize-7UbJPQRHwDE.png",
       "idiom" : "ios-marketing",
-      "filename" : "1024.jpeg",
-      "scale" : "1x"
+      "scale" : "1x",
+      "size" : "1024x1024"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }
