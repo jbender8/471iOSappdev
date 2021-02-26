@@ -356,7 +356,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
-                        <color key="backgroundColor" red="0.76662644307538685" green="1" blue="0.99239648400889213" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.94948947552553153" green="0.62775788573519797" blue="0.78487060178210111" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.48258802899999997" green="0.22448002680000001" blue="0.60773558940000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="7TX-8v-gg1" secondAttribute="trailing" constant="60" id="1du-pn-zxf"/>
