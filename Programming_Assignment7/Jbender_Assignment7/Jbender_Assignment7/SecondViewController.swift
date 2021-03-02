@@ -239,11 +239,16 @@ class SecondViewController: UIViewController {
     }
     
     @objc func setFavChannel(_ notifiaction: Notification){
-        FavCh.setTitle(Labels[0], forSegmentAt: 0)
-        FavCh.setTitle(Labels[1], forSegmentAt: 1)
-        FavCh.setTitle(Labels[2], forSegmentAt: 2)
-        FavCh.setTitle(Labels[3], forSegmentAt: 3)
+        let z = Labels[0]
+        let o = Labels[1]
+        let t = Labels[2]
+        let th = Labels[3]
 
+
+        FavCh.setTitle(z, forSegmentAt: 0)
+        FavCh.setTitle(o, forSegmentAt: 1)
+        FavCh.setTitle(t, forSegmentAt: 2)
+        FavCh.setTitle(th, forSegmentAt: 3)
     }
     
 
