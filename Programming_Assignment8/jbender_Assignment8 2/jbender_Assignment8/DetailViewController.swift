@@ -12,7 +12,8 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
-    //@IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var Image: UIImageView!
+
     
     
     func configureView() {
@@ -30,6 +31,10 @@ class DetailViewController: UIViewController {
                 completeWine.append("\n\nDescription:\n")
                 completeWine.append(detail.Description)
                 label.text = completeWine
+            }
+            if let image = Image{
+                
+                image.image = detail.Image
             }
         }
     }

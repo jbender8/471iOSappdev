@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zJp-ih-KP7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Wine List-->
+        <scene sceneID="wYh-uu-FAV">
+            <objects>
+                <tableViewController id="KDG-p3-IiZ" customClass="WineListViewController" customModule="Wine_List___Navigation___Selection___SB" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zAs-bp-p02">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="white" textLabel="eKe-XQ-Eqr" detailTextLabel="0DS-YD-zUw" imageView="Xki-CZ-WvN" style="IBUITableViewCellStyleSubtitle" id="fHE-4q-Hjg">
+                                <rect key="frame" x="0.0" y="28" width="414" height="75.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fHE-4q-Hjg" id="pgD-Y9-Hct">
+                                    <rect key="frame" x="0.0" y="0.0" width="351" height="75.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eKe-XQ-Eqr">
+                                            <rect key="frame" x="107" y="12.5" width="40" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                            <color key="textColor" red="0.99633193019999999" green="0.81786811349999999" blue="0.037737220529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0DS-YD-zUw">
+                                            <rect key="frame" x="107" y="47" width="40.5" height="13.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="white" highlightedImage="white" id="Xki-CZ-WvN">
+                                            <rect key="frame" x="20" y="0.0" width="72" height="75.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="kHt-vf-03i" kind="show" id="IMW-3V-5i5"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="sparkling" textLabel="VDE-KG-p6Z" detailTextLabel="kwb-es-hzC" imageView="qCp-Aq-XzH" style="IBUITableViewCellStyleSubtitle" id="aey-uZ-dNX">
+                                <rect key="frame" x="0.0" y="103.5" width="414" height="75.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aey-uZ-dNX" id="qom-Yh-bSk">
+                                    <rect key="frame" x="0.0" y="0.0" width="351" height="75.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VDE-KG-p6Z">
+                                            <rect key="frame" x="113" y="12.5" width="40" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                            <color key="textColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kwb-es-hzC">
+                                            <rect key="frame" x="113" y="47" width="40.5" height="13.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="sparkling" highlightedImage="sparkling" id="qCp-Aq-XzH">
+                                            <rect key="frame" x="20" y="0.0" width="78" height="75.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="kHt-vf-03i" kind="show" id="WKU-O2-QT0"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="red" textLabel="XUY-Q3-lCc" detailTextLabel="1QN-xf-3Sd" imageView="Phz-4K-7ge" style="IBUITableViewCellStyleSubtitle" id="Bqz-yj-S0Q">
+                                <rect key="frame" x="0.0" y="179" width="414" height="75.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bqz-yj-S0Q" id="PsA-7A-NG1">
+                                    <rect key="frame" x="0.0" y="0.0" width="351" height="75.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XUY-Q3-lCc">
+                                            <rect key="frame" x="111" y="12.5" width="40" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                            <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1QN-xf-3Sd">
+                                            <rect key="frame" x="111" y="47" width="40.5" height="13.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="red" highlightedImage="red" id="Phz-4K-7ge">
+                                            <rect key="frame" x="20" y="0.0" width="76" height="75.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="kHt-vf-03i" kind="show" id="pS4-fN-LbF"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="rose" textLabel="0x0-3n-FrH" detailTextLabel="oh2-1W-cbt" imageView="iOf-JP-UtZ" style="IBUITableViewCellStyleSubtitle" id="Ob9-Qb-x25">
+                                <rect key="frame" x="0.0" y="254.5" width="414" height="75.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ob9-Qb-x25" id="NqN-lW-bw3">
+                                    <rect key="frame" x="0.0" y="0.0" width="351" height="75.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0x0-3n-FrH">
+                                            <rect key="frame" x="107" y="12.5" width="40" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                            <color key="textColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oh2-1W-cbt">
+                                            <rect key="frame" x="107" y="47" width="40.5" height="13.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="rose" highlightedImage="rose" id="iOf-JP-UtZ">
+                                            <rect key="frame" x="20" y="0.0" width="72" height="75.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="kHt-vf-03i" kind="show" id="Ot5-oi-hLf"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="KDG-p3-IiZ" id="tdy-oU-ldP"/>
+                            <outlet property="delegate" destination="KDG-p3-IiZ" id="toc-hN-qas"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Wine List" id="1vv-KO-hQW"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mcY-En-OYh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1188" y="242"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="N5Q-7a-hHP">
+            <objects>
+                <navigationController id="zJp-ih-KP7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mzY-zL-PBQ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="KDG-p3-IiZ" kind="relationship" relationship="rootViewController" id="Phn-Ih-NdE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zsG-XH-06L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="190" y="242"/>
+        </scene>
+        <!--Wine Details-->
+        <scene sceneID="Sqy-Er-B0Q">
+            <objects>
+                <viewController id="kHt-vf-03i" customClass="DetailViewController" customModule="Wine_List___Navigation___Selection___SB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PPT-2A-ouY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJH-jE-QDM">
+                                <rect key="frame" x="20" y="178" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tY-Ni-HdB">
+                                <rect key="frame" x="14" y="112" width="374" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rJH-jE-QDM" firstAttribute="top" secondItem="7tY-Ni-HdB" secondAttribute="bottom" constant="32.5" id="YJh-di-qiV"/>
+                            <constraint firstItem="rJH-jE-QDM" firstAttribute="top" secondItem="ZE6-P0-ZxT" secondAttribute="top" constant="90" id="Zav-oR-BIT"/>
+                            <constraint firstItem="rJH-jE-QDM" firstAttribute="leading" secondItem="PPT-2A-ouY" secondAttribute="leadingMargin" id="dc5-3H-zOO"/>
+                            <constraint firstItem="7tY-Ni-HdB" firstAttribute="top" secondItem="ZE6-P0-ZxT" secondAttribute="top" constant="24" id="j1M-hV-wmh"/>
+                            <constraint firstItem="rJH-jE-QDM" firstAttribute="trailing" secondItem="PPT-2A-ouY" secondAttribute="trailingMargin" id="nGj-Q9-3oR"/>
+                            <constraint firstItem="7tY-Ni-HdB" firstAttribute="trailing" secondItem="PPT-2A-ouY" secondAttribute="trailingMargin" constant="-6" id="ppi-Hz-sqb"/>
+                            <constraint firstItem="ZE6-P0-ZxT" firstAttribute="bottom" secondItem="rJH-jE-QDM" secondAttribute="bottom" constant="469" id="uhq-DI-PNB"/>
+                            <constraint firstItem="7tY-Ni-HdB" firstAttribute="leading" secondItem="PPT-2A-ouY" secondAttribute="leadingMargin" constant="-6" id="zRV-9n-X9Q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZE6-P0-ZxT"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="uhq-DI-PNB"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Wine Details" id="hgc-hA-axj" userLabel="Wine Details"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="rJH-jE-QDM" id="42w-bj-0bS"/>
+                        <outlet property="titleLabel" destination="7tY-Ni-HdB" id="TlJ-C7-Je4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e3P-bt-ykv" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1187" y="1105"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="red" width="100" height="100"/>
+        <image name="rose" width="95" height="100"/>
+        <image name="sparkling" width="100" height="97"/>
+        <image name="white" width="95" height="100"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ot5-oi-hLf"/>
+    </inferredMetricsTieBreakers>
+</document>
