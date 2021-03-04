@@ -49,7 +49,7 @@ class FirstViewController: UIViewController {
                 else {
                     LabChannels[buttonsSeg.selectedSegmentIndex] = "0" + channelOutlet.text!
                 }
-                LabChannels[buttonsSeg.selectedSegmentIndex] = labelTextField.text!
+                Labels[buttonsSeg.selectedSegmentIndex] = labelTextField.text!
                 NotificationCenter.default.post(name: .Favsave, object: nil)
             }
         }
