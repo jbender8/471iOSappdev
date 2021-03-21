@@ -68,10 +68,10 @@ class MasterViewController: UITableViewController {
         let wine17 = Wines(Name: "Lambrusco",  Country: "Italy", Color: "Red Sparkling", Description: "Hailing from the Emilia-Romagna region of Italy, Lambrusco is a family of red grapes that are commonly used to make a sparkling red wine of the same name. It is one of the oldest wines made in Italy, dating back to the Bronze Age. Lambrusco comes in a number of varieties that range from dry to sweet and can vary in color from light red to deep inky purple. It is typically made in a frizzante (lightly sparkling) style and is relatively low in alcohol. Lambrusco is fruit-forward, with flavors of berries and some floral notes depending on the variety.", Image: UIImage(named: "Lambrusco")! )
         let wine18 = Wines(Name: "Malbec",  Country: "France", Color: "Red", Description: "Malbec is a purple grape variety used in making red wine. The grapes tend to have an inky dark color and robust tannins, and are known as one of the six grapes allowed in the blend of red Bordeaux wine.", Image: UIImage(named: "mel")! )
         let wine19 = Wines(Name: "Pinot Grigio",  Country: "France, Burgundy", Color: "White", Description: "Pinot gris, pinot grigio or Grauburgunder is a white wine grape variety of the species Vitis vinifera. Thought to be a mutant clone of the pinot noir variety, it normally has a grayish-blue fruit, accounting for its name but the grapes can have a brownish pink to black and even white appearance. ", Image: UIImage(named: "gris")! )
-        let wine20 = Wines(Name: "Garnacha",  Country: "Spain", Color: "Red ", Description: "Grenache or Garnacha is one of the most widely planted red wine grape varieties in the world. It ripens late, so it needs hot, dry conditions such as those found in Spain, where the grape most likely originated", Image: UIImage(named: "granacha")! )
+        let wine20 = Wines(Name: "Garnacha",  Country: "Spain", Color: "Red", Description: "Grenache or Garnacha is one of the most widely planted red wine grape varieties in the world. It ripens late, so it needs hot, dry conditions such as those found in Spain, where the grape most likely originated", Image: UIImage(named: "granacha")! )
         
 
-        let wines = [wine1, wine2, wine3, wine4, wine5, wine6, wine7, wine8, wine9, wine10, wine11, wine12, wine13, wine14, wine15, wine16, wine17, wine18, wine19, wine20 ]
+        let wines = [wine1, wine3, wine2, wine13, wine15, wine9, wine7, wine8, wine17, wine10, wine12, wine11, wine4, wine14, wine5, wine16, wine6, wine18, wine19, wine20 ]
         
         for n in 0...19 {
             objects.insert(wines[n], at: n)
@@ -109,6 +109,19 @@ class MasterViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let object = objects[indexPath.row] as! Wines
         cell.textLabel!.text = object.Name
+        if object.Color == "Red"{
+            cell.backgroundColor = .systemRed
+        }
+        else if object.Color == "Pink"{
+            cell.backgroundColor = .systemPink
+        }
+        else if object.Color == "White"{
+            cell.backgroundColor = .systemYellow
+        }
+        else{
+            cell.backgroundColor = .systemTeal
+        }
+
         return cell
     }
 
